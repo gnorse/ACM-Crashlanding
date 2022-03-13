@@ -1,0 +1,97 @@
+[
+  {
+    "id": "acm_m39",
+    "copy-from": "smg_base",
+    "looks_like": "skorpion_82",
+    "type": "GUN",
+    "reload_noise_volume": 10,
+    "name": { "str_sp": "M39 submachine gun" },
+    "description": "The Armat Battlefield Systems M-39 submachinegun. Occasionally carried by light-infantry, scouts, engineers and medics. A lightweight, lower caliber alternative to the various Pulse weapons used the USCM. Fires 10x20mm rounds.",
+    "weight": "2270 g",
+    "volume": "2700 ml",
+    "longest_side": "700 mm",
+    "price": 240000,
+    "price_postapoc": 5000,
+    "reload": 400,
+    "to_hit": -2,
+    "bashing": 9,
+    "material": "steel",
+    "symbol": "(",
+    "color": "dark_gray",
+    "ammo": "acm_10x20mm",
+    "skill": "smg",
+    "ranged_damage": { "damage_type": "bullet", "amount": 0 },
+    "dispersion": 140,
+    "durability": 6,
+    "min_cycle_recoil": 450,
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 4 ] ],
+    "valid_mod_locations": [
+      [ "accessories", 3 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "brass catcher", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "sling", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+    "faults": [ "fault_gun_blackpowder", "fault_gun_dirt", "fault_gun_chamber_spent" ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+		"item_restriction": [ "acm_m39_mag", "acm_m39_magext" ]
+      }
+    ]
+  },
+  {
+    "id": "acm_m41a",
+    "copy-from": "rifle_semi",
+    "looks_like": "needlegun",
+    "type": "GUN",
+    "name": { "str_sp": "M41A pulse rifle MK2" },
+    "description": "The Armat M41A Pulse Rifle MK2 is an American-made pulse-action assault rifle chambered for 10×24mm Caseless ammunition. It is the successor to the venerable M41A Pulse Rifle, sacrificing damage and magazine size in favor of greatly increased modular customization options.",
+    "weight": "3150 g",
+    "volume": "3250 ml",
+    "longest_side": "758 mm",
+    "price": 270000,
+    "price_postapoc": 5500,
+    "to_hit": -1,
+	"reload": 120,
+    "bashing": 12,
+    "material": [ "steel", "plastic" ],
+    "symbol": "(",
+    "color": "dark_gray",
+    "ammo": "acm_10x24mm",
+    "skill": "rifle",
+    "ranged_damage": { "damage_type": "bullet", "amount": -1 },
+    "dispersion": 170,
+    "durability": 6,
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "brass catcher", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "magazine", 1 ],
+      [ "muzzle", 1 ],
+      [ "rail", 2 ],
+      [ "sights", 1 ],
+      [ "sling", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+    "min_cycle_recoil": 800,
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "3 rd.", 3 ] ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "item_restriction": [ "acm_m41a_mag", "acm_m41a_magext" ]
+      }
+    ]
+  }
+]

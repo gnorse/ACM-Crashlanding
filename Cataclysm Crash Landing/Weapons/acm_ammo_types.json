@@ -1,0 +1,14 @@
+[
+	{
+        "type" : "ammunition_type",
+        "id" : "acm_10x20mm",
+        "name" : "10x20mm",
+        "default" : "acm_10x20mm"
+    },
+	{
+        "type" : "ammunition_type",
+        "id" : "acm_10x24mm",
+        "name" : "10x24mm",
+        "default" : "acm_10x24mm"
+    }
+]
