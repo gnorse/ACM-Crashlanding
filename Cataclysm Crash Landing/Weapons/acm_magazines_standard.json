@@ -68,6 +68,60 @@
     "ammo_type": "acm_10x24mm",
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "acm_10x24mm": 60 } } ],
     "flags": [ "MAG_BULKY" ]
-	}
+	},
+    {
+    "id": "acm_m4a3_mag",
+    "looks_like": "glock17_17",
+    "copy-from": "glockmag",
+    "type": "MAGAZINE",
+    "name": { "str": "M4A3 magazine" },
+    "description": "A 9mm magazine capable of holding 12 rounds, for use with the M4A3 pistol.",
+    "weight": "70 g",
+    "volume": "190 ml",
+    "price": 1900,
+    "price_postapoc": 100,
+    "material": "plastic",
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": "9mm",
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "9mm": 12 } } ],
+    "flags": [ "MAG_COMPACT" ]
+    },
+	{
+    "id": "acm_88mod_mag",
+    "looks_like": "glock17_17",
+    "copy-from": "glockmag",
+    "type": "MAGAZINE",
+    "name": { "str": "88 mod 4 magazine" },
+    "description": "A 9mm magazine capable of holding 18 rounds, for use with the 88 mod 4 pistol.",
+    "weight": "100 g",
+    "volume": "270 ml",
+    "price": 2600,
+    "price_postapoc": 150,
+    "material": "aluminum",
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": "9mm",
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "9mm": 18 } } ],
+    "flags": [ "MAG_COMPACT" ]
+    },
+    {
+    "id": "acm_88mod_magext",
+    "looks_like": "glock17_17",
+    "copy-from": "glockmag",
+    "type": "MAGAZINE",
+    "name": { "str": "C43 extended 88 mod 4 magazine" },
+    "description": "An extended 9mm magazine capable of holding 27 rounds, for use with the 88 mod 4 pistol.",
+    "weight": "130 g",
+    "volume": "360 ml",
+    "price": 3000,
+    "price_postapoc": 170,
+    "material": "aluminum",
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": "9mm",
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "9mm": 27 } } ],
+    "flags": [ "MAG_COMPACT" ]
+    }
 ]
 	

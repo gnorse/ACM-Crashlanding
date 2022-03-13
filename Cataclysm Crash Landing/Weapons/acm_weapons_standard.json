@@ -43,7 +43,7 @@
     "pocket_data": [
       {
         "pocket_type": "MAGAZINE_WELL",
-		"item_restriction": [ "acm_m39_mag", "acm_m39_magext" ]
+		    "item_restriction": [ "acm_m39_mag", "acm_m39_magext" ]
       }
     ]
   },
@@ -60,7 +60,7 @@
     "price": 270000,
     "price_postapoc": 5500,
     "to_hit": -1,
-	"reload": 120,
+	  "reload": 120,
     "bashing": 12,
     "material": [ "steel", "plastic" ],
     "symbol": "(",
@@ -93,5 +93,89 @@
         "item_restriction": [ "acm_m41a_mag", "acm_m41a_magext" ]
       }
     ]
+  },
+  {
+    "id": "acm_m4a3",
+	  "looks_like": "glock_17",
+    "copy-from": "m9",
+    "type": "GUN",
+    "name": { "str": "M4A3 service pistol" },
+    "description": "The Armat M4A3 Service Pistol is an American-made semi-automatic, recoil operated, magazine-fed pistol chambered for 9mm ammunition. It was notably employed by the United States Colonial Marine Corps as their standard issue sidearm.",
+    "weight": "786 g",
+    "volume": "540 ml",
+    "longest_side": "235 mm",
+    "price": 69000,
+    "price_postapoc": 2500,
+    "to_hit": -2,
+    "bashing": 10,
+    "material": [ "plastic", "steel" ],
+    "color": "dark_gray",
+    "ammo": "9mm",
+    "ranged_damage": { "damage_type": "bullet", "amount": -0 },
+    "dispersion": 440,
+    "durability": 8,
+    "range": 1,
+    "blackpowder_tolerance": 48,
+    "min_cycle_recoil": 430,
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "item_restriction": [ "acm_m4a3_mag" ]
+      }
+    ]
+  },
+  {
+    "id": "acm_88mod",
+	  "looks_like": "usp_45",
+    "copy-from": "m9",
+    "type": "GUN",
+    "name": { "str": "88 mod 4 combat pistol" },
+    "description": "A rapid-fire, blowback-operated, striker-fired sidearm issued to the USCM in small numbers. Fires 9mm rounds and is capable of a 3-round burst.",
+    "weight": "690 g",
+    "volume": "530 ml",
+    "price": 80000,
+    "price_postapoc": 3000,
+    "to_hit": -2,
+    "bashing": 7,
+    "range": 1,
+    "material": [ "plastic" ],
+    "color": "dark_gray",
+    "ammo": "9mm",
+    "ranged_damage": { "damage_type": "bullet", "amount": -1 },
+    "dispersion": 460,
+    "durability": 7,
+    "blackpowder_tolerance": 48,
+    "min_cycle_recoil": 350,
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "item_restriction": [ "acm_88mod_mag", "acm_88mod_magext" ]
+      }
+    ],
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "3 rd.", 3 ] ]
+  },
+  {
+    "id": "acm_m37",
+    "copy-from": "shotgun_pump_3gun",
+    "looks_like": "remington_870",
+    "type": "GUN",
+    "name": { "str_sp": "M37A3 pump shotgun" },
+    "description": "The Armat M37A3 Pump Shotgun is an American-made pump action combat shotgun and the successor of the M37A2 pump shotgun. its classic pump action allow extremely powerful shells to be fired reliably.",
+    "weight": "3180 g",
+    "volume": "2520 ml",
+    "longest_side": "1150 mm",
+    "reload": 160,
+    "price": 70000,
+    "price_postapoc": 2750,
+    "to_hit": -1,
+    "bashing": 14,
+    "barrel_volume": "200 ml",
+    "material": [ "steel", "aluminum", "wood" ],
+    "dispersion": 330,
+    "ranged_damage": { "damage_type": "bullet", "amount": 4 },
+    "durability": 9,
+    "clip_size": 8,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "shot": 8 } } ],
+    "flags": [ "NEVER_JAMS", "RELOAD_EJECT" ]
   }
 ]
