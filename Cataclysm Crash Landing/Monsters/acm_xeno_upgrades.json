@@ -2,16 +2,15 @@
 {
     "type": "monstergroup",
     "name": "GROUP_XENOMORPH_UPGRADE",
-    "default": "mon_xenomorph_drone",
-    "//": "xenomorph drone upgrades",
+    "//": "xenomorph chestburster upgrades",
     "monsters": [
-      { "monster": "mon_xenomorph_drone" }
+      { "monster": "mon_xenomorph_drone", "weight": 800 },
+      { "monster": "mon_xenomorph_runner", "weight": 800 }
     ]
   },
   {
     "type": "monstergroup",
     "name": "GROUP_XENOMORPH_DRONE_UPGRADE",
-    "default": "mon_xenomorph_drone",
     "//": "xenomorph drone upgrades",
     "monsters": [
       { "monster": "mon_xenomorph_drone" }

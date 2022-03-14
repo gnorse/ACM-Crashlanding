@@ -2,11 +2,12 @@
  {
     "type": "MONSTER_FACTION",
     "name": "xenomorph",
-    "by_mood": "xenomorph"
+    "friendly": "xenomorph",
+    "hate": [ "wanderer_xeno" ]
   },
  {
     "type": "MONSTER_FACTION",
     "name": "wanderer_xeno",
-    "by_mood": "wanderer_xeno"
+    "hate": [ "xenomroph" ]
   }
 ]
