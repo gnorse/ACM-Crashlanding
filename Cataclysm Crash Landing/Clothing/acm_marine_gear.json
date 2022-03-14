@@ -11,7 +11,7 @@
     "to_hit": -3,
     "material": [ "cotton", "kevlar_layered" ],
     "symbol": "[",
-    "looks_like": "touring_suit",
+    "looks_like": "jumpsuit",
     "color": "yellow",
     "armor": [
       { "covers": [ "torso" ], "coverage": 100, "encumbrance": [ 1, 2 ] },

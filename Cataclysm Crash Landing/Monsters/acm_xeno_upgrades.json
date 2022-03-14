@@ -1,4 +1,13 @@
 [
+{
+    "type": "monstergroup",
+    "name": "GROUP_XENOMORPH_UPGRADE",
+    "default": "mon_xenomorph_drone",
+    "//": "xenomorph drone upgrades",
+    "monsters": [
+      { "monster": "mon_xenomorph_drone" }
+    ]
+  },
   {
     "type": "monstergroup",
     "name": "GROUP_XENOMORPH_DRONE_UPGRADE",
