@@ -5,3 +5,5 @@
     "description": "An alien parasite",
     "fear_triggers": [ "HURT" ],
     "bleeds": "fd_blood"
+  }
+]

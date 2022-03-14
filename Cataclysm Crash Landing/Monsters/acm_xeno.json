@@ -1,10 +1,10 @@
 [
   {
-    "id": "mon_xenodrone",
+    "id": "mon_xenomorph_drone",
     "type": "MONSTER",
     "name": { "str": "Xenomorph Drone" },
     "description": "A tall, dark creature covered in a strange black carapace with biomechanical patterns all over. It stands a foot or so over the average person. The head is long, and strangely smooth on the top. The creature hisses at you with violent intent.",
-    "default_faction": "zombie",
+    "default_faction": "xenomorph",
     "bodytype": "human",
     "categories": [ "CLASSIC" ],
     "species": [ "XENOMORPH" ],
@@ -25,8 +25,8 @@
     "vision_night": 3,
     "weakpoint_sets": [ "wps_bone_armor" ],
     "harvest": "zombie",
-    "special_attacks": [ { "type": "imaple", "cooldown": 5 }, [ "GRAB", 7 ], [ "scratch", 20 ] ],
-    "death_drops": "default_zombie_death_drops",
+    "special_attacks": [ [ "impale", 50], [ "GRAB", 7 ], [ "scratch", 20 ] ],
+    "death_drops": "xenomorph_item_drop",
     "upgrades": { "half_life": 14, "into_group": "GROUP_ZOMBIE_UPGRADE" },
     "flags": [
       "SEES",
@@ -38,9 +38,10 @@
       "POISON",
       "NO_BREATHE",
       "PUSH_MON",
-      "CLIMBS,
-      "MEDIUM",
+      "CLIMBS",
       "INSECTICIDEPROOF",
       "ACIDPROOF",
       "ACID_BLOOD"
     ]
+}
+]

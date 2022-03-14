@@ -1,1 +1,8 @@
-a
+[
+ {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "xenomorph_item_drop",
+    "entries": [  ]
+  }
+]

@@ -1,1 +1,29 @@
-a
+[
+  {
+    "id": "marine_jumpsuit",
+    "type": "ARMOR",
+    "name": { "str": "Colonial Marine Uniform" },
+    "description": "A thick, short-sleeved jumpsuit worn by United States Colonial Marine forces. Kevlar pieces are layered into the cotton to assist in protection from small arms fire. It has two tactical pouches weaven in near where the pockets would be.",
+    "weight": "610 g",
+    "volume": "3500 ml",
+    "price": 8900,
+    "price_postapoc": 50,
+    "to_hit": -3,
+    "material": [ "cotton", "kevlar_layered" ],
+    "symbol": "[",
+    "looks_like": "touring_suit",
+    "color": "yellow",
+    "armor": [
+      { "covers": [ "torso" ], "coverage": 100, "encumbrance": [ 1, 2 ] },
+      { "covers": [ "arm_l", "arm_r" ], "coverage": 50, "encumbrance": [ 1, 1 ] },
+      { "covers": [ "leg_l", "leg_r" ], "coverage": 80, "encumbrance": [ 1, 2 ] }
+    ],
+    "pocket_data": [
+      { "pocket_type": "CONTAINER", "max_contains_volume": "250 ml", "max_contains_weight": "1 kg", "moves": 100 },
+      { "pocket_type": "CONTAINER", "max_contains_volume": "250 ml", "max_contains_weight": "1 kg", "moves": 100 }
+    ],
+    "warmth": 20,
+    "material_thickness": 1,
+    "flags": [ "VARSIZE", "POCKETS" ]
+  }
+]
