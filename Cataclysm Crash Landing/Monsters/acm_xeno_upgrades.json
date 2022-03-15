@@ -5,7 +5,10 @@
     "//": "xenomorph chestburster upgrades",
     "monsters": [
       { "monster": "mon_xenomorph_drone", "weight": 800 },
-      { "monster": "mon_xenomorph_runner", "weight": 800 }
+      { "monster": "mon_xenomorph_runner", "weight": 800 },
+      { "monster": "mon_xenomorph_defender", "weight": 800 },
+      { "monster": "mon_xenomorph_sentinel", "weight": 800 }
+
     ]
   },
   {
@@ -14,6 +17,30 @@
     "//": "xenomorph drone upgrades",
     "monsters": [
       { "monster": "mon_xenomorph_drone" }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_XENOMORPH_RUNNER_UPGRADE",
+    "//": "xenomorph runner upgrades",
+    "monsters": [
+      { "monster": "mon_xenomorph_runner" }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_XENOMORPH_DEFENDER_UPGRADE",
+    "//": "xenomorph defender upgrades",
+    "monsters": [
+      { "monster": "mon_xenomorph_defender" }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_XENOMORPH_SENTINEL_UPGRADE",
+    "//": "xenomorph sentinel upgrades",
+    "monsters": [
+      { "monster": "mon_xenomorph_sentinel" }
     ]
   }
 ]
