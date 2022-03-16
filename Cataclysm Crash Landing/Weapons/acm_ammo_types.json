@@ -10,5 +10,11 @@
         "id" : "acm_10x24mm",
         "name" : "10x24mm",
         "default" : "acm_10x24mm"
+    },
+    {
+        "type" : "ammunition_type",
+        "id" : "acm_9mm_special",
+        "name" : "9mm special",
+        "default" : "acm_9mm_squashhead"
     }
 ]

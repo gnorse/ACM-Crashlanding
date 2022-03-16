@@ -62,7 +62,21 @@
     "name": { "str": "10x24mm AP" },
     "description": "A 10x24mm caseless armor piercing round. The cartridge's explosive tip's factory pre-set impact fuse is designed to explode after the round has penetrated armor to inflict maximum damage, and so it will often over-penetrate soft targets without exploding, leaving them relatively unharmed. Being caseless rounds, these cannot be disassembled or reloaded.",
     "relative": { "damage": { "damage_type": "bullet", "amount": -12, "armor_penetration": 25 } },
-	"proportional": { "price": 1.2, "price_postapoc": 1.2 }
+	  "proportional": { "price": 1.2, "price_postapoc": 1.2 }
 
+  },
+  {
+    "id": "acm_9mm_squashhead",
+    "copy-from": "9mm",
+    "ammo_type": "acm_9mm_special",
+    "type": "AMMO",
+    "name": { "str_sp": "9mm squash head" },
+    "description": "9mm squash-head ammunition. Boasts superior damage and armor penetration in exchange for higher recoil and lower accuracy.",
+    "price": 400,
+    "price_postapoc": 1200,
+    "flags": [ "IRREPLACEABLE_CONSUMABLE" ],
+    "count": 18,
+    "relative": { "damage": { "damage_type": "bullet", "amount": 8, "armor_penetration": 8 }, "dispersion": 25 },
+    "proportional": { "recoil": 1.2 }
   }
 ]
