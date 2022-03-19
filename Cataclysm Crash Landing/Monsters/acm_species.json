@@ -3,7 +3,6 @@
     "type": "SPECIES",
     "id": "XENOMORPH",
     "description": "an alien parasite",
-    "fear_triggers": [ "HURT" ],
     "bleeds": "fd_blood"
   }
 ]
