@@ -87,8 +87,8 @@
     "name": "GROUP_XENOMORPH_PRAETORIAN_UPGRADE",
     "//": "xenomorph praetorian upgrades",
     "monsters": [
-      { "monster": "mon_xenomorph_praetorian" },
-      { "monster": "mon_xenomorph_royal_praetorian", "weight": 800 }
+      { "monster": "mon_xenomorph_praetorian", "weight": 800 },
+      { "monster": "mon_xenomorph_royal_praetorian", "weight": 8 }
     ]
   },
 {
@@ -96,8 +96,8 @@
     "name": "GROUP_XENOMORPH_RAVAGER_UPGRADE",
     "//": "xenomorph ravager upgrades",
     "monsters": [
-      { "monster": "mon_xenomorph_ravager" },
-      { "monster": "mon_xenomorph_colossal_ravager", "weight": 800 }
+      { "monster": "mon_xenomorph_ravager", "weight": 800 },
+      { "monster": "mon_xenomorph_colossal_ravager", "weight": 8 }
     ]
   },
 {
@@ -105,8 +105,8 @@
     "name": "GROUP_XENOMORPH_CRUSHER_UPGRADE",
     "//": "xenomorph crusher upgrades",
     "monsters": [
-      { "monster": "mon_xenomorph_crusher" }, 
-      { "monster": "mon_xenomorph_gargantuan_crusher", "weight": 800 }
+      { "monster": "mon_xenomorph_crusher", "weight": 800 }, 
+      { "monster": "mon_xenomorph_gargantuan_crusher", "weight": 8 }
     ]
   },
 {
@@ -114,8 +114,8 @@
     "name": "GROUP_XENOMORPH_CORRODER_UPGRADE",
     "//": "xenomorph corroder upgrades",
     "monsters": [
-      { "monster": "mon_xenomorph_corroder" },
-      { "monster": "mon_xenomorph_railgun_corroder", "weight": 800 }
+      { "monster": "mon_xenomorph_corroder", "weight": 800 },
+      { "monster": "mon_xenomorph_railgun_corroder", "weight": 8 }
     ]
   }
 ]
