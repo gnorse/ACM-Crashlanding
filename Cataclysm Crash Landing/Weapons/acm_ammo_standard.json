@@ -76,7 +76,7 @@
     "price_postapoc": 1200,
     "flags": [ "IRREPLACEABLE_CONSUMABLE" ],
     "count": 18,
-    "relative": { "damage": { "damage_type": "bullet", "amount": 8, "armor_penetration": 8 }, "dispersion": 25 },
+    "relative": { "damage": { "damage_type": "bullet", "amount": 8, "armor_penetration": 12 }, "dispersion": 25 },
     "proportional": { "recoil": 1.2 }
   }
 ]
