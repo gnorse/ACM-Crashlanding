@@ -1,0 +1,59 @@
+[
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "acm_pulse_mags",
+    "entries": [ { "item": "acm_m41a_mag", "ammo-item": "acm_10x24mm", "charges": 30 }, { "item": "acm_m41a_mag", "ammo-item": "acm_10x24mm", "charges": 30 } ]
+} 
+],
+[
+  {
+    "type": "profession",
+    "id": "colonial_marine",
+    "name": "Colonial Marine Rifleman",
+    "description": "You were a rifleman in the United States Colonial Marines. You weren't very special, but unlike a xenomorph or a zombie, you can shoot a gun, and that's what counts. Oo-fucking-rah",
+    "points": 6,
+    "proficiencies": [ "prof_gunsmithing_basic", "prof_spotting" ],
+    "skills": [
+      { "level": 3, "name": "gun" },
+      { "level": 3, "name": "rifle" },
+      { "level": 2, "name": "melee" },
+      { "level": 2, "name": "stabbing" },
+      { "level": 2, "name": "dodge" },
+      { "level": 2, "name": "survival" },
+      { "level": 2, "name": "firstaid" }
+    ],
+    "items": {
+      "both": {
+        "items": [
+          "marine_jumpsuit",
+          "undershirt",
+          "helmet_army",
+          "mask_ski",
+          "gloves_liner",
+          "gloves_tactical",
+          "socks",
+          "boots_combat",
+          "wristwatch",
+          "molle_pack"
+        ],
+        "entries": [
+          { "group": "charged_two_way_radio" },
+          { "item": "water_clean", "container-item": "canteen" },
+          { "item": "legpouch_large", "contents-group": "acm_pulse_mags" },
+          { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
+          { "item": "knife_combat", "container-item": "sheath" },
+          { "item": "acm_armor_standard", "contents-group": "acm_pulse_mags" },
+          {
+            "item": "acm_m41a",
+            "ammo-item": "acm_10x24mm",
+            "charges": 30,
+            "contents-item": [ "shoulder_strap", "holo_sight" ]
+          }
+        ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "sports_bra", "boxer_shorts" ]
+    }
+  }
+]
