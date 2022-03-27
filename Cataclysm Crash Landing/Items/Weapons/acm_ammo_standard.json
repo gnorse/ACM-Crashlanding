@@ -1,0 +1,82 @@
+[
+  {
+    "id": "acm_10x20mm",
+    "looks_like": "10mm_fmj",
+    "type": "AMMO",
+    "name": { "str": "10x20mm HV" },
+    "description": "A 10x20mm caseless high-velocity round. Powerful propellant allows the bullet increased velocity and minor penetration capabilities, noticeably improving its efficacy at medium ranges, although it still suffers significantly compared to a rifle bullet. Being caseless rounds, these cannot be disassembled or reloaded. ",
+    "weight": "10 g",
+    "volume": "220 ml",
+    "price": 200,
+    "price_postapoc": 1000,
+    "flags": [ "IRREPLACEABLE_CONSUMABLE" ],
+    "material": [ "plastic", "powder" ],
+    "symbol": "=",
+    "color": "yellow",
+    "count": 40,
+    "stack_size": 40,
+    "ammo_type": "acm_10x20mm",
+    "range": 30,
+    "damage": { "damage_type": "bullet", "amount": 30, "armor_penetration": 5 },
+    "dispersion": 50,
+    "recoil": 1000,
+    "effects": [ "NEVER_MISFIRES" ]
+  },
+  {
+    "id": "acm_10x20mm_ap",
+    "copy-from": "acm_10x20mm",
+    "type": "AMMO",
+    "name": { "str": "10x20mm AP" },
+    "description": "A 10x20mm caseless armor-piercing round. The bullet tips are made out of high-density material, allowing them to pierce straight through armor, but also reducing the raw stopping power and velocity of the ammunition. Being caseless rounds, these cannot be disassembled or reloaded.",
+    "relative": { "damage": { "damage_type": "bullet", "amount": -5, "armor_penetration": 10 } },
+	"proportional": { "price": 1.2, "price_postapoc": 1.2 }
+
+  },
+  {
+    "id": "acm_10x24mm",
+	"looks_like": "8mm_caseless",
+    "type": "AMMO",
+    "name": { "str": "10x24mm caseless" },
+    "description": "A 10x24mm caseless round. The cartridge consists of a 210 grain steel-jacketed projectile embedded within a rectangular propellant block of Nitramine 50. Being caseless rounds, these cannot be disassembled or reloaded. ",
+    "weight": "13 g",
+    "volume": "250 ml",
+    "price": 250,
+    "price_postapoc": 1250,
+    "flags": [ "IRREPLACEABLE_CONSUMABLE" ],
+    "material": [ "plastic", "powder" ],
+    "symbol": "=",
+    "color": "yellow",
+    "count": 35,
+    "stack_size": 70,
+    "ammo_type": "acm_10x24mm",
+    "range": 36,
+    "damage": { "damage_type": "bullet", "amount": 46, "armor_penetration": 5 },
+    "dispersion": 100,
+    "recoil": 1500,
+    "effects": [ "NEVER_MISFIRES" ]
+  },
+  {
+    "id": "acm_10x24mm_ap",
+    "copy-from": "acm_10x24mm",
+    "type": "AMMO",
+    "name": { "str": "10x24mm AP" },
+    "description": "A 10x24mm caseless armor piercing round. The cartridge's explosive tip's factory pre-set impact fuse is designed to explode after the round has penetrated armor to inflict maximum damage, and so it will often over-penetrate soft targets without exploding, leaving them relatively unharmed. Being caseless rounds, these cannot be disassembled or reloaded.",
+    "relative": { "damage": { "damage_type": "bullet", "amount": -12, "armor_penetration": 25 } },
+	  "proportional": { "price": 1.2, "price_postapoc": 1.2 }
+
+  },
+  {
+    "id": "acm_9mm_squashhead",
+    "copy-from": "9mm",
+    "ammo_type": "acm_9mm_special",
+    "type": "AMMO",
+    "name": { "str_sp": "9mm squash head" },
+    "description": "9mm squash-head ammunition. Boasts superior damage and armor penetration in exchange for higher recoil and lower accuracy.",
+    "price": 400,
+    "price_postapoc": 1200,
+    "flags": [ "IRREPLACEABLE_CONSUMABLE" ],
+    "count": 18,
+    "relative": { "damage": { "damage_type": "bullet", "amount": 8, "armor_penetration": 12 }, "dispersion": 25 },
+    "proportional": { "recoil": 1.2 }
+  }
+]

@@ -1,0 +1,121 @@
+[
+{
+    "type": "monstergroup",
+    "name": "GROUP_XENOMORPH_UPGRADE",
+    "//": "xenomorph chestburster upgrades",
+    "monsters": [
+      { "monster": "mon_xenomorph_drone", "weight": 800 },
+      { "monster": "mon_xenomorph_runner", "weight": 800 },
+      { "monster": "mon_xenomorph_defender", "weight": 800 },
+      { "monster": "mon_xenomorph_sentinel", "weight": 800 }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_XENOMORPH_DRONE_UPGRADE",
+    "//": "xenomorph drone upgrades",
+    "monsters": [
+      { "monster": "mon_xenomorph_drone" },
+      { "monster": "mon_xenomorph_hivelord", "weight": 800 }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_XENOMORPH_RUNNER_UPGRADE",
+    "//": "xenomorph runner upgrades",
+    "monsters": [
+      { "monster": "mon_xenomorph_runner" },
+      { "monster": "mon_xenomorph_lurker", "weight": 800 }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_XENOMORPH_DEFENDER_UPGRADE",
+    "//": "xenomorph defender upgrades",
+    "monsters": [
+      { "monster": "mon_xenomorph_defender" },
+      { "monster": "mon_xenomorph_warrior", "weight": 800 }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_XENOMORPH_SENTINEL_UPGRADE",
+    "//": "xenomorph sentinel upgrades",
+    "monsters": [
+      { "monster": "mon_xenomorph_sentinel" },
+      { "monster": "mon_xenomorph_spitter", "weight": 800 }
+    ]
+  },
+{
+    "type": "monstergroup",
+    "name": "GROUP_XENOMORPH_HIVELORD_UPGRADE",
+    "//": "xenomorph hivelord upgrades",
+    "monsters": [
+      { "monster": "mon_xenomorph_hivelord" },
+      { "monster": "mon_xenomorph_praetorian", "weight": 800 }
+    ]
+  },
+{
+    "type": "monstergroup",
+    "name": "GROUP_XENOMORPH_LURKER_UPGRADE",
+    "//": "xenomorph lurker upgrades",
+    "monsters": [
+      { "monster": "mon_xenomorph_lurker" },
+      { "monster": "mon_xenomorph_ravager", "weight": 800 }
+    ]
+  },
+{
+    "type": "monstergroup",
+    "name": "GROUP_XENOMORPH_WARRIOR_UPGRADE",
+    "//": "xenomorph warrior upgrades",
+    "monsters": [
+      { "monster": "mon_xenomorph_warrior" },
+      { "monster": "mon_xenomorph_crusher", "weight": 800 }
+    ]
+  },
+{
+    "type": "monstergroup",
+    "name": "GROUP_XENOMORPH_SPITTER_UPGRADE",
+    "//": "xenomorph spitter upgrades",
+    "monsters": [
+      { "monster": "mon_xenomorph_spitter" },
+      { "monster": "mon_xenomorph_corroder", "weight": 800 }
+    ]
+  },
+{
+    "type": "monstergroup",
+    "name": "GROUP_XENOMORPH_PRAETORIAN_UPGRADE",
+    "//": "xenomorph praetorian upgrades",
+    "monsters": [
+      { "monster": "mon_xenomorph_praetorian", "weight": 800 },
+      { "monster": "mon_xenomorph_royal_praetorian", "weight": 8 }
+    ]
+  },
+{
+    "type": "monstergroup",
+    "name": "GROUP_XENOMORPH_RAVAGER_UPGRADE",
+    "//": "xenomorph ravager upgrades",
+    "monsters": [
+      { "monster": "mon_xenomorph_ravager", "weight": 800 },
+      { "monster": "mon_xenomorph_colossal_ravager", "weight": 8 }
+    ]
+  },
+{
+    "type": "monstergroup",
+    "name": "GROUP_XENOMORPH_CRUSHER_UPGRADE",
+    "//": "xenomorph crusher upgrades",
+    "monsters": [
+      { "monster": "mon_xenomorph_crusher", "weight": 800 }, 
+      { "monster": "mon_xenomorph_gargantuan_crusher", "weight": 8 }
+    ]
+  },
+{
+    "type": "monstergroup",
+    "name": "GROUP_XENOMORPH_CORRODER_UPGRADE",
+    "//": "xenomorph corroder upgrades",
+    "monsters": [
+      { "monster": "mon_xenomorph_corroder", "weight": 800 },
+      { "monster": "mon_xenomorph_railgun_corroder", "weight": 8 }
+    ]
+  }
+]

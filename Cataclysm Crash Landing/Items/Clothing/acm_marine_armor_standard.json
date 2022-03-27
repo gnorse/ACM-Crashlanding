@@ -1,0 +1,57 @@
+[
+  {
+    "id": "acm_armor_standard",
+    "type": "ARMOR",
+    "category": "armor",
+    "name": { "str": "M3 pattern personal armor" },
+    "description": "The M3 Pattern Personal Armor is the standard ballistic protective armor system employed by the United States Colonial Marine Corps. Provides modest protection from bullet and melee attacks as well as two small pouches to store your items.",
+    "weight": "2500 g",
+    "volume": "8 L",
+    "price": 320000,
+    "price_postapoc": 2750,
+    "to_hit": -3,
+    "bashing": 2,
+    "material": [ "kevlar_layered", "steel" ],
+    "symbol": "[",
+    "looks_like": "armor_riot",
+    "color": "dark_gray",
+    "armor": [
+      { "covers": [ "torso" ], "coverage": 95, "encumbrance": [ 10, 20 ] },
+      { "covers": [ "leg_l", "leg_r" ], "coverage": 40, "encumbrance": [ 10, 14 ] },
+      { "covers": [ "arm_l", "arm_r" ], "coverage": 40, "encumbrance": [ 10, 12 ] }
+    ],
+    "pocket_data": [
+      { "pocket_type": "CONTAINER", "max_contains_volume": "1 L", "max_contains_weight": "3 kg", "max_item_length": "30 cm", "moves": 80 },
+      { "pocket_type": "CONTAINER", "max_contains_volume": "1 L", "max_contains_weight": "3 kg", "max_item_length": "30 cm", "moves": 80 }
+
+    ],
+    "warmth": 15,
+    "material_thickness": 4,
+    "environmental_protection": 2,
+    "valid_mods": [ "steel_padded" ],
+    "flags": [ "POCKETS", "STURDY", "OUTER" ]
+  },
+  {
+    "id": "acm_helmet_standard",
+    "repairs_like": "helmet_army",
+    "type": "ARMOR",
+    "category": "armor",
+    "name": { "str": "M10 pattern marine helmet" },
+    "description": "Standard issue helmet used by the USCM. Provides modest protection from bullet and melee attacks aimed at the head.",
+    "weight": "2040 g",
+    "volume": "1800 ml",
+    "price": 17500,
+    "price_postapoc": 1650,
+    "to_hit": -1,
+    "bashing": 11,   
+    "material": [ "kevlar", "steel" ], 
+    "symbol": "[",
+    "looks_like": "helmet_army",
+    "color": "green",
+    "armor": [ { "encumbrance": 20, "coverage": 85, "covers": [ "head" ] } ],
+    "warmth": 15,
+    "material_thickness": 6,
+    "techniques": [ "WBLOCK_1" ],
+    "flags": [ "VARSIZE", "WATERPROOF", "STURDY" ]
+  }
+]
