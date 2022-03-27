@@ -4,9 +4,7 @@
     "subtype": "collection",
     "id": "acm_pulse_mags",
     "entries": [ { "item": "acm_m41a_mag", "ammo-item": "acm_10x24mm", "charges": 30 }, { "item": "acm_m41a_mag", "ammo-item": "acm_10x24mm", "charges": 30 } ]
-} 
-],
-[
+ },
   {
     "type": "profession",
     "id": "colonial_marine",
