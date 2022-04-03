@@ -1,0 +1,112 @@
+[
+  {
+    "type": "mod_tileset",
+    "compatibility": [ "MshockXottoplus", "MSXotto+" ],
+    "tiles-new": [
+      {
+        "file": "small.png",
+        "tiles": [
+          { "id": "mon_xenomorph_defender", "fg": 1 },
+          { "id": "mon_xenomorph_drone", "fg": 2 },
+          { "id": "mon_xenomorph_lurker", "fg": 5 },
+          { "id": "mon_xenomorph_runner", "fg": 3 },
+          { "id": "mon_xenomorph_sentinel", "fg": 4 },
+          { "id": "mon_xenomorph_spitter", "fg": 6 }
+        ],
+        "//": "range 1 to 15",
+        "sprite_width": 48,
+        "sprite_height": 48,
+        "sprite_offset_x": -16,
+        "sprite_offset_y": -16
+      },
+      {
+        "file": "tiny.png",
+        "tiles": [
+          { "id": "acm_88mod", "fg": 43 },
+          { "id": "acm_armor_standard", "fg": 27 },
+          { "id": "acm_flamethrower", "fg": 47 },
+          { "id": "acm_flamethrower_tank", "fg": 38 },
+          { "id": "acm_helmet_standard", "fg": 29 },
+          { "id": "acm_m37", "fg": 44 },
+          { "id": "acm_m39", "fg": 26 },
+          { "id": "acm_m39_mag", "fg": 31 },
+          { "id": "acm_m39_magext", "fg": 32 },
+          { "id": "acm_m41a", "fg": 37 },
+          { "id": "acm_m41a_mag", "fg": 35 },
+          { "id": "acm_m41a_magext", "fg": 36 },
+          { "id": "acm_m4a3", "fg": 42 },
+          { "id": "acm_mk221", "fg": 45 },
+          { "id": "acm_vp78", "fg": 46 },
+          { "id": "marine_jumpsuit", "fg": 23 },
+          { "id": "overlay_female_worn_marine_jumpsuit", "fg": 25 },
+          { "id": "overlay_male_worn_marine_jumpsuit", "fg": 24 },
+          { "id": "overlay_wielded_acm_88mod", "fg": 18 },
+          { "id": "overlay_wielded_acm_flamethrower", "fg": 22 },
+          { "id": "overlay_wielded_acm_flamethrower_tank", "fg": 41 },
+          { "id": "overlay_wielded_acm_m37", "fg": 19 },
+          { "id": "overlay_wielded_acm_m39", "fg": 48 },
+          { "id": "overlay_wielded_acm_m39_mag", "fg": 33 },
+          { "id": "overlay_wielded_acm_m39_magext", "fg": 34 },
+          { "id": "overlay_wielded_acm_m41a", "fg": 16 },
+          { "id": "overlay_wielded_acm_m41a_mag", "fg": 39 },
+          { "id": "overlay_wielded_acm_m41a_magext", "fg": 40 },
+          { "id": "overlay_wielded_acm_m4a3", "fg": 17 },
+          { "id": "overlay_wielded_acm_mk221", "fg": 20 },
+          { "id": "overlay_wielded_acm_vp78", "fg": 21 },
+          { "id": "overlay_worn_acm_armor_standard", "fg": 28 },
+          { "id": "overlay_worn_acm_helmet_standard", "fg": 30 }
+        ],
+        "//": "range 16 to 63",
+        "sprite_width": 32,
+        "sprite_height": 32,
+        "sprite_offset_x": 0,
+        "sprite_offset_y": 0
+      },
+      {
+        "file": "medium.png",
+        "tiles": [ { "id": "mon_xenomorph_hivelord", "fg": 64 }, { "id": "mon_xenomorph_warrior", "fg": 65 } ],
+        "//": "range 64 to 79",
+        "sprite_width": 64,
+        "sprite_height": 64,
+        "sprite_offset_x": -32,
+        "sprite_offset_y": -32
+      },
+      {
+        "file": "big.png",
+        "tiles": [
+          { "id": "mon_xenomorph_corroder", "fg": 83 },
+          { "id": "mon_xenomorph_crusher", "fg": 82 },
+          { "id": "mon_xenomorph_praetorian", "fg": 80 },
+          { "id": "mon_xenomorph_ravager", "fg": 81 }
+        ],
+        "//": "range 80 to 95",
+        "sprite_width": 96,
+        "sprite_height": 96,
+        "sprite_offset_x": -64,
+        "sprite_offset_y": -64
+      },
+      {
+        "file": "huge.png",
+        "tiles": [
+          { "id": "mon_xenomorph_colossal_ravager", "fg": 97 },
+          { "id": "mon_xenomorph_railgun_corroder", "fg": 98 },
+          { "id": "mon_xenomorph_royal_praetorian", "fg": 96 }
+        ],
+        "//": "range 96 to 111",
+        "sprite_width": 124,
+        "sprite_height": 124,
+        "sprite_offset_x": -92,
+        "sprite_offset_y": -92
+      },
+      {
+        "file": "massive.png",
+        "tiles": [ { "id": "mon_xenomorph_gargantuan_crusher", "fg": 112 } ],
+        "//": "range 112 to 127",
+        "sprite_width": 168,
+        "sprite_height": 128,
+        "sprite_offset_x": -136,
+        "sprite_offset_y": -96
+      }
+    ]
+  }
+]
