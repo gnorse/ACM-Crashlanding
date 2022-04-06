@@ -42,7 +42,7 @@
       { "item": "acm_flamethrower", "prob": 1, "charges": [ 0, 2000 ] },
       { "item": "acm_10x24mm", "prob": 6 },
       { "item": "acm_10x24mm_ap", "prob": 6 },
-      { "item": "acm_9mm_special", "prob": 6 },
+      { "item": "acm_9mm_squashhead", "prob": 6 },
       { "item": "acm_m41a_mag", "prob": 6 },
       { "item": "acm_m41a_magext", "prob": 6 },
       { "item": "acm_m4a3_mag", "prob": 6 },
