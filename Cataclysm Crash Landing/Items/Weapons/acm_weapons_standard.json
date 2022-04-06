@@ -178,7 +178,7 @@
     "copy-from": "shotgun_base",
     "type": "GUN",
     "name": { "str": "MK221 tactical shotgun" },
-    "description": "The Weyland-Yutani MK221 Tactical Shotgun is a self-loading semi-automatic shotgun capable of holding 8 shells. It is constructed out of heat resistant alloys, allowing the weapon to maintain structural integrity after firing multiple shots in quick succession.",
+    "description": "The Weyland-Yutani MK221 Tactical Shotgun is a self-loading semi-automatic shotgun capable of holding 10 shells. It is constructed out of heat resistant alloys, allowing the weapon to maintain structural integrity after firing multiple shots in quick succession.",
     "weight": "3780 g",
     "volume": "2768 ml",
     "longest_side": "835 mm",

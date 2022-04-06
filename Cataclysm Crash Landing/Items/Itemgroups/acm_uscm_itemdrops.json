@@ -1,0 +1,68 @@
+[
+  {
+    "type": "item_group",
+    "id": "military_standard_assault_rifles",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "acm_m41a", "prob": 28, "charges": [ 0, 40 ] },
+      { "item": "acm_heavy_pulse", "prob": 3, "charges": [ 0, 300 ] }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "military_standard_shotguns",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "acm_m37", "prob": 30, "charges": [ 0, 8 ] },
+      { "item": "acm_mk221", "prob": 30, "charges": [ 0, 10 ] }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "military_standard_pistols",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "acm_m4a3", "prob": 15, "charges": [ 0, 12 ] },
+      { "item": "acm_88mod", "prob": 15, "charges": [ 0, 18 ] },
+      { "item": "acm_vp78", "prob": 3, "charges": [ 0, 18 ] }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "military",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "acm_m4a3", "prob": 3, "charges": [ 0, 12 ] },
+      { "item": "acm_88mod", "prob": 3, "charges": [ 0, 18 ] },
+      { "item": "acm_vp78", "prob": 2, "charges": [ 0, 18 ] },
+      { "item": "acm_m37", "prob": 3, "charges": [ 0, 8 ] },
+      { "item": "acm_mk221", "prob": 2, "charges": [ 0, 8 ] },
+      { "item": "acm_m41a", "prob": 3, "charges": [ 0, 40 ] },
+      { "item": "acm_heavy_pulse", "prob": 1, "charges": [ 0, 300 ] },
+      { "item": "acm_flamethrower", "prob": 1, "charges": [ 0, 2000 ] },
+      { "item": "acm_10x24mm", "prob": 6 },
+      { "item": "acm_10x24mm_ap", "prob": 6 },
+      { "item": "acm_9mm_special", "prob": 6 },
+      { "item": "acm_m41a_mag", "prob": 6 },
+      { "item": "acm_m41a_magext", "prob": 6 },
+      { "item": "acm_m4a3_mag", "prob": 6 },
+      { "item": "acm_88mod_mag", "prob": 6 },
+      { "item": "acm_88mod_magext", "prob": 6 },
+      { "item": "acm_m41a_heavy_mag", "prob": 4 },
+      { "item": "acm_flamethrower_tank", "prob": 4 },
+      { "item": "marine_jumpsuit", "prob": 3 },
+      { "item": "acm_armor_standard", "prob": 2 },
+      { "item": "acm_helmet_standard", "prob": 2 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "army_personal_locker",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "marine_jumpsuit", "prob": 30 },
+      { "item": "acm_armor_standard", "prob": 20 },
+      { "item": "acm_helmet_standard", "prob": 20 }
+    ]
+  }
+]
