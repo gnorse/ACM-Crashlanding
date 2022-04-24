@@ -1,0 +1,16 @@
+[
+  {
+    "id": "fd_yautja_blood",
+    "type": "field_type",
+    "legacy_enum_id": 1,
+    "intensity_levels": [ { "name": "predator blood splatter", "color": "green" }, { "name": "predator blood stain" }, { "name": "puddle of predator blood" } ],
+    "description_affix": "covered_in",
+    "underwater_age_speedup": "25 minutes",
+    "decay_amount_factor": 2,
+    "is_splattering": true,
+    "half_life": "2 days",
+    "phase": "liquid",
+    "accelerated_decay": true,
+    "display_field": true
+  }
+]

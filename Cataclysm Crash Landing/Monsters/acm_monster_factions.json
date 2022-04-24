@@ -8,6 +8,12 @@
  {
     "type": "MONSTER_FACTION",
     "name": "wanderer_xeno",
-    "hate": [ "xenomroph" ]
+    "hate": [ "xenomorph" ]
+  },
+{
+    "type": "MONSTER_FACTION",
+    "name": "predator",
+    "friendly": "predator",
+    "hate": [ "xenomorph" ]
   }
 ]

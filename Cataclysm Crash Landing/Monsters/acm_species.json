@@ -4,5 +4,11 @@
     "id": "XENOMORPH",
     "description": "an alien parasite",
     "bleeds": "fd_blood"
+  },
+  {
+    "type": "SPECIES",
+    "id": "YAUTJA",
+    "description": "an alien hunter",
+    "bleeds": "fd_yautja_blood"
   }
 ]
