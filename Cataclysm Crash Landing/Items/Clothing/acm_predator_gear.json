@@ -1,0 +1,68 @@
+[
+{
+    "id": "acm_predator_biomask_on",
+    "repairs_like": "helmet_army",
+    "type": "ARMOR",
+    "category": "armor",
+    "name": { "str": "Biomask (on)" },
+    "description": "An extremely sturdy mask with various electronical functions. The lenses have some sort of infared filtering on them, allowing you to see warm blooded creatures, even in low light conditions. The mask is very large, and does not properly fit human anatomy.",
+    "weight": "3040 g",
+    "volume": "2800 ml",
+    "use_action": {
+      "type": "transform",
+      "msg": "You de-activate your %s.",
+      "target": "acm_predator_biomask",
+      "active": true
+    },
+    "price": 17500,
+    "price_postapoc": 1650,
+    "to_hit": -1,
+    "bashing": 11,   
+    "material": [ "hardsteel" ], 
+    "symbol": "[",
+    "looks_like": "helmet_army",
+    "color": "green",
+    "armor": [ 
+      { "covers": [ "head" ], "encumbrance": 25, "coverage": 90},
+      { "covers": [ "eyes", "mouth" ], "encumbrance": 15, "coverage": 100}
+
+ ],
+    "warmth": 25,
+    "material_thickness": 8,
+    "techniques": [ "WBLOCK_1" ],
+    "flags": [ "VARSIZE", "WATERPROOF", "STURDY", "IR_EFFECT", "GNV_EFFECT" ]
+  },
+  {
+    "id": "acm_predator_biomask",
+    "repairs_like": "helmet_army",
+    "type": "ARMOR",
+    "category": "armor",
+    "name": { "str": "Biomask" },
+    "description": "An extremely sturdy ornate alien mask with various electronical functions. The mask is very large, and does not properly fit human anatomy.",
+    "weight": "3040 g",
+    "volume": "2800 ml",
+    "use_action": {
+      "type": "transform",
+      "msg": "You activate your %s.",
+      "target": "acm_predator_biomask_on",
+      "active": true
+    },
+    "price": 17500,
+    "price_postapoc": 1650,
+    "to_hit": -1,
+    "bashing": 11,   
+    "material": [ "hardsteel" ], 
+    "symbol": "[",
+    "looks_like": "helmet_army",
+    "color": "green",
+    "armor": [ 
+      { "covers": [ "head" ], "encumbrance": 25, "coverage": 90},
+      { "covers": [ "eyes", "mouth" ], "encumbrance": 15, "coverage": 100}
+
+ ],
+    "warmth": 25,
+    "material_thickness": 8,
+    "techniques": [ "WBLOCK_1" ],
+    "flags": [ "VARSIZE", "WATERPROOF", "STURDY" ]
+  }
+]

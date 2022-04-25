@@ -3,7 +3,7 @@
     "type": "item_group",
     "subtype": "collection",
     "id": "acm_pulse_mags",
-    "entries": [ { "item": "acm_m41a_mag", "ammo-item": "acm_10x24mm", "charges": 30 }, { "item": "acm_m41a_mag", "ammo-item": "acm_10x24mm", "charges": 30 } ]
+    "entries": [ { "item": "acm_m41a_mag", "ammo-item": "acm_10x24mm", "charges": 40 }, { "item": "acm_m41a_mag", "ammo-item": "acm_10x24mm", "charges": 40 } ]
   },
   {
     "type": "item_group",

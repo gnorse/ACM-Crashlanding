@@ -3,6 +3,8 @@
     "type": "item_group",
     "subtype": "collection",
     "id": "predator_item_drop",
-    "entries": [  ]
+    "entries": [ 
+{ "item": "acm_predator_biomask", "prob": 100} 
+]
   }
 ]
