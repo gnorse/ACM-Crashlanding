@@ -20,7 +20,7 @@
     "bashing": 11,   
     "material": [ "hardsteel" ], 
     "symbol": "[",
-    "looks_like": "helmet_army",
+    "looks_like": "acm_predator_biomask",
     "color": "green",
     "armor": [ 
       { "covers": [ "head" ], "encumbrance": 25, "coverage": 90},
@@ -53,7 +53,6 @@
     "bashing": 11,   
     "material": [ "hardsteel" ], 
     "symbol": "[",
-    "looks_like": "helmet_army",
     "color": "green",
     "armor": [ 
       { "covers": [ "head" ], "encumbrance": 25, "coverage": 90},
