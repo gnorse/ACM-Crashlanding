@@ -4,8 +4,7 @@
     "name": "GROUP_CAVE",
     "is_animal": true,
     "monsters": [
-      { "monster": "mon_null", "weight": 15 },
-      { "monster": "acm_yautja_hunter", "weight": 15, "cost_multiplier": 10 }
+      { "monster": "mon_yautja_hunter", "weight": 15, "cost_multiplier": 10 }
     ]
   },
   {
@@ -15,7 +14,7 @@
     "//": "Current SPRING first DAY count is 513.  Note that 'freq' units are tenth of a percent, with default filling in the gap.",
     "is_animal": true,
     "monsters": [
-        { "monster": "acm_yautja_hunter", "weight": 1, "cost_multiplier": 10 }
+        { "monster": "mon_yautja_hunter", "weight": 1, "cost_multiplier": 10 }
     ]
   }
 ]
